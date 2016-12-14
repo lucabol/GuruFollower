@@ -1,0 +1,22 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "req",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "guru-updates",
+      "connection": "AzureWebJobsDashboard"
+    },
+    {
+      "type": "documentDB",
+      "name": "$return",
+      "databaseName": "guru-portfolios",
+      "collectionName": "{collection}",
+      "id": "{cik}",
+      "createIfNotExists": true,
+      "connection": "guru-portfolios_DOCUMENTDB",
+      "direction": "out"
+    }
+  ]
+}
