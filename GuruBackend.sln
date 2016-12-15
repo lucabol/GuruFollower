@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{33AD0EE8-D99B-4E14-8CD9-3F56ABEF97A2}") = "GuruBackend", "GuruBackend.funproj", "{D04A857D-7CBA-4702-82FF-F17AC8F5BA6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F46E81F-D95D-4078-BECA-538C15A2656E} = {1F46E81F-D95D-4078-BECA-538C15A2656E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuruLoader", "GuruLoader\GuruLoader.csproj", "{1F46E81F-D95D-4078-BECA-538C15A2656E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{D04A857D-7CBA-4702-82FF-F17AC8F5BA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D04A857D-7CBA-4702-82FF-F17AC8F5BA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04A857D-7CBA-4702-82FF-F17AC8F5BA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F46E81F-D95D-4078-BECA-538C15A2656E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F46E81F-D95D-4078-BECA-538C15A2656E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F46E81F-D95D-4078-BECA-538C15A2656E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F46E81F-D95D-4078-BECA-538C15A2656E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

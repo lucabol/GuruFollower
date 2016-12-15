@@ -1,0 +1,27 @@
+﻿{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "* */1 * * * *"
+    },
+    {
+      "type": "queue",
+      "name": "messages",
+      "queueName": "update-portfolio",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
+    },
+    {
+      "type": "documentDB",
+      "name": "client",
+      "databaseName": "guru-portfolios",
+      "collectionName": "lucabol",
+      "id": "",
+      "connection": "AzureDocumentDB",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

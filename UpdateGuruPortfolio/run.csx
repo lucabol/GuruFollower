@@ -1,4 +1,4 @@
-﻿#r "..\sharedBin\GuruLoader46.dll"
+﻿#r "..\sharedBin\GuruLoader.dll"
 #load "..\shared\UpdateMessage.csx"
 using System;
 
@@ -9,10 +9,6 @@ public async static Task<DisplayPortfolio> Run(UpdateData req, TraceWriter log) 
         DisplayPortfolio port;
 
         port = await GuruLoader.FetchDisplayPortfolioAsync(req.cik);
-        log.Info(port.DisplayName);
-        log.Info(port.TotalValue.ToString());
-        log.Info(port.PositionsNumber.ToString());
-        log.Info(port.Positions.Count().ToString());
         port.id = req.cik;
         port.groups = req.groups;
 
