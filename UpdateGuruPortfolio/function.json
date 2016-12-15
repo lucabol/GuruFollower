@@ -5,8 +5,8 @@
       "name": "req",
       "type": "queueTrigger",
       "direction": "in",
-      "queueName": "guru-updates",
-      "connection": "AzureWebJobsDashboard"
+      "queueName": "update-portfolio",
+      "connection": "AzureWebJobsStorage"
     },
     {
       "type": "documentDB",
@@ -15,7 +15,7 @@
       "collectionName": "{collection}",
       "id": "{cik}",
       "createIfNotExists": true,
-      "connection": "guru-portfolios_DOCUMENTDB",
+      "connection": "AzureDocumentDB",
       "direction": "out"
     }
   ]

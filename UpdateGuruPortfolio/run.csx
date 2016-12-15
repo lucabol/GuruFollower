@@ -17,7 +17,6 @@ public async static Task<DisplayPortfolio> Run(UpdateData req, TraceWriter log) 
         port.groups = req.groups;
 
         return port;
-
     }
     else
         return null;
