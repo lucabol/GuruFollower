@@ -7,8 +7,8 @@ using System.Net;
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string collection, string cik, string port, TraceWriter log)
 {
     log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}, {collection}, {cik}");
-    if (String.IsNullOrEmpty(collection)) throw new Exception("Empty collection");
-    if (String.IsNullOrEmpty(cik)) throw new Exception("Empty cik");
+    if (String.IsNullOrEmpty(collection)) throw new ArgumentException("Empty collection");
+    if (String.IsNullOrEmpty(cik)) throw new ArgumentException("Empty cik");
 
 
     return String.IsNullOrEmpty(port)

@@ -11,8 +11,8 @@ using System.Threading.Tasks;
 public async static Task Run(TimerInfo myTimer, DocumentClient client, IAsyncCollector<UpdateData> messages, TraceWriter log) {
     log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
 
-    if (client == null) throw new Exception("Error documentDB handle is null");
-    if (messages == null) throw new Exception("The update message queue is null");
+    if (client == null) throw new ArgumentException("Error documentDB handle is null");
+    if (messages == null) throw new ArgumentException("The update message queue is null");
 
     // TODO: rewrite to perform less queries. Now it queries once for the list of collections and one time for each collection. Perhaps it could be done with 1 or 2 queries
     Database database = client.CreateDatabaseQuery(@"SELECT * FROM d WHERE d.id = ""guru-portfolios""").AsEnumerable().First();

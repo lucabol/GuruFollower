@@ -1,0 +1,26 @@
+﻿{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "route": "portfolios/{collection}"
+    },
+    {
+      "type": "documentDB",
+      "name": "client",
+      "databaseName": "guru-portfolios",
+      "collectionName": "{collection}",
+      "id": "",
+      "connection": "AzureDocumentDB",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}

@@ -17,5 +17,4 @@ public async static Task<DisplayPortfolio> Run(UpdateData req, TraceWriter log) 
     }
     else
         return null;
-
 }
