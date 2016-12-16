@@ -14,12 +14,12 @@ public async static Task Run(TimerInfo myTimer, DocumentClient client, IAsyncCol
     if (client == null) throw new ArgumentException("Error documentDB handle is null");
     if (messages == null) throw new ArgumentException("The update message queue is null");
 
-    // TODO: rewrite to perform less queries. Now it queries once for the list of collections and one time for each collection. Perhaps it could be done with 1 or 2 queries
-    Database database = client.CreateDatabaseQuery(@"SELECT * FROM d WHERE d.id = ""guru-portfolios""").AsEnumerable().First();
-    List<DocumentCollection> collections = client.CreateDocumentCollectionQuery((String)database.SelfLink).ToList();
+    // Gets all collections in the DB
+    var db = (await client.ReadDatabaseFeedAsync()).Single(d => d.Id == "guru-portfolios");
+    var cols = (await client.ReadDocumentCollectionFeedAsync(db.CollectionsLink));
 
     // For each collection generates (colId, cik, quarterEndDateInDB)
-    var colIdDates = collections
+    var colIdDates = cols
                     .Select(col => Tuple.Create(col.Id, col.DocumentsLink))
                     .SelectMany(tup => {
                         var docs = client.CreateDocumentQuery(tup.Item2).ToList();

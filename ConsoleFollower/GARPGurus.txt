@@ -1,0 +1,18 @@
+﻿0001112520, 1.0, Akre
+0001568820, 1.0, Arlington
+0001553733, 1.0, Brave Warrior
+0001534380, 1.0, SQ Advisors
+0001106500, 1.0, Joho Capital
+0001358706, 1.0, Abrams Capital
+0001279936, 1.0, Cantillon Capital
+0001278951, 1.0, GoldenTree
+0001353316, 1.0, Hound Partners
+0001483866, 1.0, Independent Franchise
+0001316729, 1.0, Osmium
+0001168664, 1.0, Pennant Capital
+0001336528, 1.0, Pershing Square
+0000860585, 1.0, RBS Partners
+0001484148, 0.3, Turtle Creek
+0001549575, 0.6, Dalal Street
+0001631664, 0.6, Punch Card Capital
+0001542280, 0.6, Cook & Bynum
