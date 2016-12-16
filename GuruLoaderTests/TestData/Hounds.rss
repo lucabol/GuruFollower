@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing">
+          <city>NEW YORK</city>
+          <state>NY</state>
+          <street1>101 PARK AVENUE</street1>
+          <street2>48TH FLOOR</street2>
+          <zip>10178</zip>
+        </address>
+        <address type="business">
+          <city>NEW YORK</city>
+          <phone>2129842326</phone>
+          <state>NY</state>
+          <street1>101 PARK AVENUE</street1>
+          <street2>48TH FLOOR</street2>
+          <zip>10178</zip>
+        </address>
+      </addresses>
+      <cik>0001353316</cik>
+      <cik-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001353316&amp;owner=exclude&amp;count=40</cik-href>
+      <conformed-name>Hound Partners, LLC</conformed-name>
+      <fiscal-year-end>1231</fiscal-year-end>
+      <state-location>NY</state-location>
+      <state-location-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=NY&amp;owner=exclude&amp;count=40</state-location-href>
+      <state-of-incorporation>DE</state-of-incorporation>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-16-000047</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2016-11-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331616000047/0001353316-16-000047-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>161994040</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>20 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-16-000047</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331616000047/0001353316-16-000047-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-11-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-16-000047 &lt;b&gt;Size:&lt;/b&gt; 20 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2016-11-14T15:05:06-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-16-015157</accession-nunber>
+        <filing-date>2016-08-29</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957416015157/0000919574-16-015157-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>131 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-16-015157</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957416015157/0000919574-16-015157-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-08-29 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-16-015157 &lt;b&gt;Size:&lt;/b&gt; 131 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2016-08-29T17:11:26-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-16-000045</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2016-08-15</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331616000045/0001353316-16-000045-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>161831588</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-16-000045</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331616000045/0001353316-16-000045-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-08-15 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-16-000045 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2016-08-15T13:37:42-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-16-013367</accession-nunber>
+        <filing-date>2016-05-20</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957416013367/0000919574-16-013367-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>133 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-16-013367</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957416013367/0000919574-16-013367-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-05-20 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-16-013367 &lt;b&gt;Size:&lt;/b&gt; 133 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2016-05-20T16:55:15-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-16-000043</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2016-05-16</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331616000043/0001353316-16-000043-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>161653278</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>18 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-16-000043</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331616000043/0001353316-16-000043-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-05-16 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-16-000043 &lt;b&gt;Size:&lt;/b&gt; 18 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2016-05-16T15:34:55-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-16-000038</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2016-02-16</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331616000038/0001353316-16-000038-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>161426784</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>16 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-16-000038</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331616000038/0001353316-16-000038-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-02-16 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-16-000038 &lt;b&gt;Size:&lt;/b&gt; 16 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2016-02-16T14:42:46-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-16-010736</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2016-02-16</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957416010736/0000919574-16-010736-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>115 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-16-010736</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957416010736/0000919574-16-010736-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-02-16 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-16-010736 &lt;b&gt;Size:&lt;/b&gt; 115 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2016-02-16T10:15:28-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-16-010728</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2016-02-16</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957416010728/0000919574-16-010728-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>116 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-16-010728</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957416010728/0000919574-16-010728-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-02-16 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-16-010728 &lt;b&gt;Size:&lt;/b&gt; 116 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2016-02-16T10:09:55-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-16-008971</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2016-01-06</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957416008971/0000919574-16-008971-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>117 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-16-008971</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957416008971/0000919574-16-008971-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-01-06 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-16-008971 &lt;b&gt;Size:&lt;/b&gt; 117 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2016-01-06T11:41:30-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-15-008622</accession-nunber>
+        <filing-date>2015-12-09</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957415008622/0000919574-15-008622-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>118 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-15-008622</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957415008622/0000919574-15-008622-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-12-09 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-15-008622 &lt;b&gt;Size:&lt;/b&gt; 118 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2015-12-09T16:55:00-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000033</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2015-11-16</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000033/0001353316-15-000033-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>151232990</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>18 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000033</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000033/0001353316-15-000033-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-11-16 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000033 &lt;b&gt;Size:&lt;/b&gt; 18 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2015-11-16T12:49:18-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000030</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2015-08-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000030/0001353316-15-000030-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>151055255</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>17 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000030</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000030/0001353316-15-000030-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-08-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000030 &lt;b&gt;Size:&lt;/b&gt; 17 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2015-08-14T15:22:12-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000025</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2015-05-15</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000025/0001353316-15-000025-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>15867106</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>20 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000025</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000025/0001353316-15-000025-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-05-15 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000025 &lt;b&gt;Size:&lt;/b&gt; 20 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2015-05-15T12:24:31-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000017</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2015-02-17</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000017/0001353316-15-000017-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>67 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000017</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000017/0001353316-15-000017-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000017 &lt;b&gt;Size:&lt;/b&gt; 67 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2015-02-19T17:13:13-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000023</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2015-02-17</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000023/0001353316-15-000023-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>68 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000023</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000023/0001353316-15-000023-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000023 &lt;b&gt;Size:&lt;/b&gt; 68 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2015-02-17T16:37:16-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000022</accession-nunber>
+        <filing-date>2015-02-17</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000022/0001353316-15-000022-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>60 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000022</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000022/0001353316-15-000022-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000022 &lt;b&gt;Size:&lt;/b&gt; 60 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2015-02-17T14:47:06-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000020</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2015-02-17</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000020/0001353316-15-000020-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>68 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000020</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000020/0001353316-15-000020-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000020 &lt;b&gt;Size:&lt;/b&gt; 68 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2015-02-17T14:33:59-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000019</accession-nunber>
+        <filing-date>2015-02-17</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000019/0001353316-15-000019-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>66 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000019</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000019/0001353316-15-000019-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000019 &lt;b&gt;Size:&lt;/b&gt; 66 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2015-02-17T14:06:49-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-15-000013</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2015-02-17</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331615000013/0001353316-15-000013-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>15619422</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>17 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-15-000013</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331615000013/0001353316-15-000013-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-15-000013 &lt;b&gt;Size:&lt;/b&gt; 17 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2015-02-17T11:23:28-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-14-000016</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2014-11-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331614000016/0001353316-14-000016-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>141221581</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-14-000016</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331614000016/0001353316-14-000016-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-11-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-14-000016 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2014-11-14T11:20:11-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-14-000011</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2014-08-12</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331614000011/0001353316-14-000011-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>141033874</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-14-000011</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331614000011/0001353316-14-000011-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-08-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-14-000011 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2014-08-12T15:49:32-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-14-003953</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2014-07-08</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957414003953/0000919574-14-003953-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>226 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-14-003953</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957414003953/0000919574-14-003953-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-07-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-14-003953 &lt;b&gt;Size:&lt;/b&gt; 226 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2014-07-08T17:03:33-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-14-000008</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2014-05-30</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331614000008/0001353316-14-000008-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>64 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-14-000008</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331614000008/0001353316-14-000008-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-05-30 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-14-000008 &lt;b&gt;Size:&lt;/b&gt; 64 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2014-05-30T10:40:45-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0001353316-14-000004</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2014-05-12</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000135331614000004/0001353316-14-000004-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>14833165</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001353316-14-000004</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000135331614000004/0001353316-14-000004-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-05-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001353316-14-000004 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2014-05-12T15:16:34-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-14-002782</accession-nunber>
+        <filing-date>2014-04-29</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957414002782/0000919574-14-002782-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>220 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-14-002782</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957414002782/0000919574-14-002782-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-04-29 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-14-002782 &lt;b&gt;Size:&lt;/b&gt; 220 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2014-04-29T16:02:25-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-14-001677</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2014-02-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957414001677/0000919574-14-001677-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>14614270</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-14-001677</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957414001677/0000919574-14-001677-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-02-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-14-001677 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2014-02-14T13:47:32-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-14-000852</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2014-02-13</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957414000852/0000919574-14-000852-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>219 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-14-000852</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957414000852/0000919574-14-000852-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-14-000852 &lt;b&gt;Size:&lt;/b&gt; 219 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2014-02-12T18:08:02-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-14-000850</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2014-02-13</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957414000850/0000919574-14-000850-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>220 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-14-000850</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957414000850/0000919574-14-000850-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-14-000850 &lt;b&gt;Size:&lt;/b&gt; 220 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2014-02-12T17:56:36-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-14-000503</accession-nunber>
+        <filing-date>2014-01-31</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957414000503/0000919574-14-000503-index.htm</filing-href>
+        <filing-type>SC 13G</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>153 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-14-000503</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957414000503/0000919574-14-000503-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-01-31 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-14-000503 &lt;b&gt;Size:&lt;/b&gt; 153 KB</summary>
+      <title>SC 13G  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2014-01-31T16:51:46-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-007040</accession-nunber>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2013-12-30</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413007040/0000919574-13-007040-index.htm</filing-href>
+        <filing-type>13F-HR/A</filing-type>
+        <film-number>131303181</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-007040</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413007040/0000919574-13-007040-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-12-30 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-007040 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>13F-HR/A [Amend]  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2013-12-30T16:18:43-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-007012</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2013-12-24</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413007012/0000919574-13-007012-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>195 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-007012</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413007012/0000919574-13-007012-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-12-24 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-007012 &lt;b&gt;Size:&lt;/b&gt; 195 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2013-12-24T15:20:05-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-006452</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2013-11-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413006452/0000919574-13-006452-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>131217273</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-006452</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413006452/0000919574-13-006452-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-11-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-006452 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2013-11-14T10:04:26-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-004792</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2013-08-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413004792/0000919574-13-004792-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>131034374</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>16 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-004792</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413004792/0000919574-13-004792-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-08-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-004792 &lt;b&gt;Size:&lt;/b&gt; 16 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2013-08-13T18:23:47-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-003160</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2013-05-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413003160/0000919574-13-003160-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>13842556</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>7 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-003160</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413003160/0000919574-13-003160-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-05-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-003160 &lt;b&gt;Size:&lt;/b&gt; 7 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2013-05-14T17:09:13-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-000903</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2013-02-13</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413000903/0000919574-13-000903-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>220 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-000903</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413000903/0000919574-13-000903-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-000903 &lt;b&gt;Size:&lt;/b&gt; 220 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2013-02-13T15:03:36-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-000901</accession-nunber>
+        <amend>[Amend]</amend>
+        <filing-date>2013-02-13</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413000901/0000919574-13-000901-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>220 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-000901</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413000901/0000919574-13-000901-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-000901 &lt;b&gt;Size:&lt;/b&gt; 220 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2013-02-13T14:56:16-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-13-000896</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2013-02-13</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957413000896/0000919574-13-000896-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>13602171</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>7 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-13-000896</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957413000896/0000919574-13-000896-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-02-13 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-13-000896 &lt;b&gt;Size:&lt;/b&gt; 7 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2013-02-13T14:41:07-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-12-006273</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2012-11-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957412006273/0000919574-12-006273-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>121201947</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>7 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-12-006273</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957412006273/0000919574-12-006273-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2012-11-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-12-006273 &lt;b&gt;Size:&lt;/b&gt; 7 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2012-11-14T11:23:04-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-12-004827</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2012-08-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957412004827/0000919574-12-004827-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>121029974</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>7 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-12-004827</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957412004827/0000919574-12-004827-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2012-08-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-12-004827 &lt;b&gt;Size:&lt;/b&gt; 7 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2012-08-14T10:01:53-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="http://www.sec.gov/" term="13F-HR" />
+      <content type="text/xml">
+        <accession-nunber>0000919574-12-003202</accession-nunber>
+        <act>34</act>
+        <file-number>028-11815</file-number>
+        <file-number-href>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=028-11815&amp;owner=exclude&amp;count=40</file-number-href>
+        <filing-date>2012-05-14</filing-date>
+        <filing-href>http://www.sec.gov/Archives/edgar/data/1353316/000091957412003202/0000919574-12-003202-index.htm</filing-href>
+        <filing-type>13F-HR</filing-type>
+        <film-number>12837928</film-number>
+        <form-name>Quarterly report filed by institutional managers, Holdings</form-name>
+        <size>6 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000919574-12-003202</id>
+      <link href="http://www.sec.gov/Archives/edgar/data/1353316/000091957412003202/0000919574-12-003202-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2012-05-14 &lt;b&gt;AccNo:&lt;/b&gt; 0000919574-12-003202 &lt;b&gt;Size:&lt;/b&gt; 6 KB</summary>
+      <title>13F-HR  - Quarterly report filed by institutional managers, Holdings</title>
+      <updated>2012-05-14T14:08:47-04:00</updated>
+    </entry>
+    <id>http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001353316</id>
+    <link href="http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001353316&amp;owner=exclude&amp;start=0&amp;count=40" rel="alternate" type="text/html" />
+    <link href="http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001353316&amp;owner=exclude&amp;start=0&amp;count=40&amp;output=atom" rel="self" type="application/atom+xml" />
+    <link href="http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001353316&amp;type=&amp;datea=&amp;dateb=&amp;owner=exclude&amp;count=40&amp;output=atom&amp;start=40" rel="next" type="application/atom+xml" />
+    <title>Hound Partners, LLC  (0001353316)</title>
+    <updated>2016-11-15T04:13:49-05:00</updated>
+  </feed>

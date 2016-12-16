@@ -1,0 +1,409 @@
+<SEC-DOCUMENT>0001606587-16-000759.txt : 20160815
+<SEC-HEADER>0001606587-16-000759.hdr.sgml : 20160815
+<ACCEPTANCE-DATETIME>20160815084402
+ACCESSION NUMBER:		0001606587-16-000759
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20160630
+FILED AS OF DATE:		20160815
+DATE AS OF CHANGE:		20160815
+EFFECTIVENESS DATE:		20160815
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Arlington Value Capital, LLC
+		CENTRAL INDEX KEY:			0001568820
+		IRS NUMBER:				870673530
+		STATE OF INCORPORATION:			UT
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-15228
+		FILM NUMBER:		161830209
+
+	BUSINESS ADDRESS:	
+		STREET 1:		222 S. MAIN STREET, SUITE 1750
+		CITY:			SALT LAKE CITY
+		STATE:			UT
+		ZIP:			84101
+		BUSINESS PHONE:		801-505-6275
+
+	MAIL ADDRESS:	
+		STREET 1:		222 S. MAIN STREET, SUITE 1750
+		CITY:			SALT LAKE CITY
+		STATE:			UT
+		ZIP:			84101
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001568820</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2016</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2016</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Arlington Value Capital, LLC</name>
+        <address>
+          <ns1:street1>222 S. Main Street, Suite 1750</ns1:street1>
+          <ns1:city>Salt Lake City</ns1:city>
+          <ns1:stateOrCountry>UT</ns1:stateOrCountry>
+          <ns1:zipCode>84101</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-15228</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Ben Raybould</name>
+      <title>Managing Member</title>
+      <phone>801-505-6275</phone>
+      <signature>Ben Raybould</signature>
+      <city>Salt Lake City</city>
+      <stateOrCountry>UT</stateOrCountry>
+      <signatureDate>08-10-2016</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>21</tableEntryTotal>
+      <tableValueTotal>901962</tableValueTotal>
+      <isConfidentialOmitted>false</isConfidentialOmitted>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>form13InfoTable.xml
+<DESCRIPTION>DESCRIPTION FOR INFORMATION TABLE
+<TEXT>
+<XML>
+<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd"><infoTable><nameOfIssuer>BANK OF AMERICA CORP</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>060505104</cusip>
+<value>35908</value>
+<shrsOrPrnAmt><sshPrnamt>2706014</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>2425984</Sole>
+<Shared>280030</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>BERKSHIRE HATHAWAY INC CL A</nameOfIssuer>
+<titleOfClass>CL A</titleOfClass>
+<cusip>084670108</cusip>
+<value>9329</value>
+<shrsOrPrnAmt><sshPrnamt>43</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>26</Sole>
+<Shared>17</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>BERKSHIRE HATHAWAY INC CL B</nameOfIssuer>
+<titleOfClass>CL B NEW</titleOfClass>
+<cusip>084670702</cusip>
+<value>185323</value>
+<shrsOrPrnAmt><sshPrnamt>1279949</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>1166389</Sole>
+<Shared>113560</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>CHEFS' WAREHOUSE HOLDINGS LL</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>163086101</cusip>
+<value>8207</value>
+<shrsOrPrnAmt><sshPrnamt>512938</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>444903</Sole>
+<Shared>68035</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>CIMPRESS N V</nameOfIssuer>
+<titleOfClass>SHS EURO</titleOfClass>
+<cusip>N20146101</cusip>
+<value>166954</value>
+<shrsOrPrnAmt><sshPrnamt>1805299</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>1563006</Sole>
+<Shared>242293</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>COPART INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>217204106</cusip>
+<value>5327</value>
+<shrsOrPrnAmt><sshPrnamt>108709</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>97445</Sole>
+<Shared>11264</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>DESWELL INDUSTRIES INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>250639101</cusip>
+<value>159</value>
+<shrsOrPrnAmt><sshPrnamt>100981</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>100981</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>HEICO CORP NEW - CL A</nameOfIssuer>
+<titleOfClass>CL A</titleOfClass>
+<cusip>422806208</cusip>
+<value>1639</value>
+<shrsOrPrnAmt><sshPrnamt>30561</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>30561</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>INTERACTIVE BROKERS GRO-CL A</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>45841N107</cusip>
+<value>74368</value>
+<shrsOrPrnAmt><sshPrnamt>2100811</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>1837638</Sole>
+<Shared>263173</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>L BRANDS INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>501797104</cusip>
+<value>32196</value>
+<shrsOrPrnAmt><sshPrnamt>479621</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>416081</Sole>
+<Shared>63540</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>LEUCADIA NATIONAL CORP</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>527288104</cusip>
+<value>109648</value>
+<shrsOrPrnAmt><sshPrnamt>6327088</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>5494554</Sole>
+<Shared>832534</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>LIBERTY TRIPADVISOR HDG-A-</nameOfIssuer>
+<titleOfClass>COM SER A</titleOfClass>
+<cusip>531465102</cusip>
+<value>731</value>
+<shrsOrPrnAmt><sshPrnamt>33438</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>33438</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>MOODYS CORP</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>615369105</cusip>
+<value>24158</value>
+<shrsOrPrnAmt><sshPrnamt>257802</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>231794</Sole>
+<Shared>26008</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>MSC INDUSTRIAL DIRECT CO-A</nameOfIssuer>
+<titleOfClass>CL A</titleOfClass>
+<cusip>553530106</cusip>
+<value>67121</value>
+<shrsOrPrnAmt><sshPrnamt>951266</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>824554</Sole>
+<Shared>126712</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>NOW INC/DE</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>67011P100</cusip>
+<value>83794</value>
+<shrsOrPrnAmt><sshPrnamt>4619318</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>3975626</Sole>
+<Shared>643692</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>OUTERWALL INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>690070107</cusip>
+<value>43662</value>
+<shrsOrPrnAmt><sshPrnamt>1039593</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>913034</Sole>
+<Shared>126559</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>OUTERWALL INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>690070107</cusip>
+<value>1835</value>
+<shrsOrPrnAmt><sshPrnamt>43700</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<putCall>Call</putCall>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>43700</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>RAVEN INDUSTRIES INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>754212108</cusip>
+<value>409</value>
+<shrsOrPrnAmt><sshPrnamt>21639</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>21639</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>TRIPADVISOR INC</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>896945201</cusip>
+<value>13193</value>
+<shrsOrPrnAmt><sshPrnamt>205193</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>174639</Sole>
+<Shared>30554</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>VALMONT INDUSTRIES</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>920253101</cusip>
+<value>2808</value>
+<shrsOrPrnAmt><sshPrnamt>20760</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>18060</Sole>
+<Shared>2700</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable><nameOfIssuer>WELLS FARGO &amp; COMPANY</nameOfIssuer>
+<titleOfClass>COM</titleOfClass>
+<cusip>949746101</cusip>
+<value>35193</value>
+<shrsOrPrnAmt><sshPrnamt>743576</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<otherManager>NONE</otherManager>
+<votingAuthority><Sole>673576</Sole>
+<Shared>70000</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
