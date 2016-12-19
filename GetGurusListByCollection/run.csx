@@ -1,10 +1,8 @@
 ﻿#r "Microsoft.Azure.Documents.Client"
-#r "Newtonsoft.Json"
 #r "..\sharedBin\GuruLoader.dll"
 
 using System;
 using System.Net;
-using Newtonsoft.Json;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 
@@ -14,13 +12,11 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
     log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}, collection={collection}");
     if (client == null) throw new ArgumentException("client is null");
 
-    // Get all ports in a collection
     var db = (await client.ReadDatabaseFeedAsync()).Single(d => d.Id == "guru-portfolios");
     var col = (await client.ReadDocumentCollectionFeedAsync(db.CollectionsLink)).Single(c => c.Id == collection);
-    var docs = client.CreateDocumentQuery(col.DocumentsLink).ToList();
-    var portfolios = docs.Select(doc => JsonConvert.DeserializeObject<DisplayPortfolio>(doc.ToString()));
+    var docs = client.CreateDocumentQuery<DisplayPortfolio>(col.DocumentsLink).Select(p => new { p.id, p.DisplayName, p.EndQuarterDate });
 
-    return portfolios == null
+    return docs == null
         ? req.CreateResponse(HttpStatusCode.BadRequest, $"No hyper-portfolio for collection {collection}")
-        : req.CreateResponse(HttpStatusCode.OK, JsonConvert.SerializeObject(portfolios.Select(p => new { p.id, p.DisplayName, p.EndQuarterDate }).ToArray()));
+        : req.CreateResponse(HttpStatusCode.OK, docs);
 }
