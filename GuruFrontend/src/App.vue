@@ -1,0 +1,135 @@
+<template>
+  <div>
+  <h1 v-if='showPort'>{{dname}}</h1>
+  <h1 v-else>Hyper Portfolio</h1>
+  <div id="app" class="flex-container">
+    <gurus @guruClicked='guruClicked' @addGuru='addGuru' @removeGuru='removeGuru' @hyperClicked='hyperClicked' :guruList='guruList'></gurus>
+    <portfolio v-if='showPort' :data='trades' :columns='tradeCols'></portfolio>
+    <hyperPortfolio v-else :data='hyperTrades' :columns='hyperTradeCols'></hyperPortfolio>
+  </div>
+  </div>
+</template>
+
+<script>
+import Gurus from './components/Gurus'
+import Portfolio from './components/Portfolio'
+import HyperPortfolio from './components/HyperPortfolio'
+
+export default {
+  name: 'app',
+  components: {
+    Gurus,
+    Portfolio,
+    HyperPortfolio
+  },
+  data () {
+    return {
+      dname: '',
+      ddate: {},
+      showPort: true,
+      guruList: [],
+      trades: [],
+      hyperTradeCols: ['Name', 'ClassTitle', 'Cusip', 'PutCall', 'PercOfPortfolio', 'NumberGurusOwning', 'NumberGurusBuying', 'NumberGurusSelling'],
+      tradeCols: ['Name', 'ClassTitle', 'Cusip', 'Value', 'Shares', 'PutCall', 'Change', 'PercOfPortfolio', 'IsNew', 'IsSold', 'Price', 'Discretion'],
+      hyperTrades: []
+    }
+  },
+  methods: {
+    guruClicked: function (id, dname, ddate) {
+      this.loadPositions(id)
+      this.dname = dname
+      this.ddate = ddate
+    },
+    removeGuru: function (id) {},
+    addGuru: function (id) {
+      // This tries for 2.5 sec every 250 ms to see if the guru as been inserted, if it had, then reloads
+      // the list of gurus and shows the hyperportfolio
+      this.$http.post('/api/portfolios', {collection: 'lucabol', groups: [], cik: id, remove: false}).then((response) => {
+        var maxTries = 10
+        var timeout = 250 // in msec
+        var caller = this.$http
+        var load = this.loadGurus
+        var f = function () {
+          caller.get('/api/portfolios/lucabol/' + id).then((response) => {
+            load()
+          }, (error) => {
+            if (maxTries > 0) {
+              maxTries = maxTries - 1
+              window.setTimeout(f, timeout)
+            } else {
+              window.alert('Error adding guru with cik = ' + id + ' Error:' + error.toString())
+            }
+          })
+        }
+        window.setTimeout(f, timeout)
+      })
+    },
+    hyperClicked: function () {
+      this.loadHyperPositions()
+    },
+    formatTrades: function (trds) {
+      trds.forEach(function (t) {
+        try {
+          t.Change = (t.Change * 100).toFixed(1) + '%'
+          t.PercOfPortfolio = (t.PercOfPortfolio * 100).toFixed(1) + '%'
+          t.IsNew = t.IsNew ? 'X' : ''
+          t.IsSold = t.IsSold ? 'X' : ''
+          t.Price = t.Price.toFixed(2)
+          t.Shares = t.Shares.toLocaleString()
+          t.Value = t.Value.toLocaleString()
+        } catch (err) {
+          window.alert('Guru with no positions? ' + err.toString())
+        }
+      })
+      return trds
+    },
+    loadPositions: function (cik) {
+      this.showPort = true
+      if (cik) {
+        this.$http.get('/api/portfolios/lucabol/' + cik).then((response) => {
+          var port = JSON.parse(response.body)
+          this.trades = this.formatTrades(port.Positions)
+        })
+      }
+    },
+    formatHyperTrades: function (trds) {
+      trds.forEach(function (t) {
+        t.PercOfPortfolio = (t.PercOfPortfolio * 100).toFixed(1) + '%'
+      })
+      return trds
+    },
+    loadHyperPositions: function () {
+      this.showPort = false
+      this.$http.get('/api/portfolios/lucabol').then((response) => {
+        var port = response.body
+        this.hyperTrades = this.formatHyperTrades(port.Positions)
+      })
+    },
+    loadGurus: function () {
+      this.$http.get('/api/portfolios/lucabol/gurus').then((response) => {
+        this.guruList = response.body
+        this.loadHyperPositions()
+      })
+    }
+  },
+  created: function () {
+    this.trades = []
+    this.guruList = []
+    this.loadGurus()
+  }
+}
+</script>
+
+<style>
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  text-align: center;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+</style>

@@ -325,6 +325,9 @@ public static class GuruLoader {
             var port = t.Item1;
             var weight = t.Item2;
             foreach (var pos in port.Positions) {
+                if (double.IsNaN(pos.Change))
+                    continue;
+
                 HyperPosition hp;
                 var relativeWeight = pos.PercOfPortfolio * weight;
                 totalWeight += relativeWeight;

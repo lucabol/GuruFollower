@@ -5,8 +5,8 @@ using System;
 // Monitors the queue, when a new request for update arrives, it fetches the right portfolio and updates the DB
 public async static Task<DisplayPortfolio> Run(UpdateData req, TraceWriter log) {
 
-    log.Info($"updatedata = {req.collection}:{req.groups}:{req.cik}");
-    if (req != null) {
+    log.Info($"updatedata = {req.collection}:{req.groups}:{req.cik}: {req.remove}");
+    if (req != null && !req.remove) {
         DisplayPortfolio port;
 
         port = await GuruLoader.FetchDisplayPortfolioAsync(req.cik);

@@ -37,7 +37,7 @@ public async static Task Run(TimerInfo myTimer, DocumentClient client, IAsyncCol
 
     // If the date in the database is less then the date on the SEC site, then we need to update the portfolio in the database
     var mess = colIdDates
-                   .Zip(secEndDates, (tup, secDate) => tup.Item3 < secDate ? new UpdateData { collection = tup.Item1, groups = null, cik = tup.Item2 } : null)
+                   .Zip(secEndDates, (tup, secDate) => tup.Item3 < secDate ? new UpdateData { collection = tup.Item1, groups = null, cik = tup.Item2, remove = false } : null)
                    .Where(o => o != null);
 
     // We do that by adding messages to the queue
