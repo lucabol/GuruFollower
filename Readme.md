@@ -19,12 +19,14 @@ You need to install:
 ### Installing
 
 Installing and running the console application is trivial:
+
 1. Clone the repository
 2. Open the solution in the root directory in Visual Studio 2015
 3. Set `ConsoleFollower` as your startup project
 4. Debug/Start Debugging
 
 Installing and running the web application to test it locally is not easy:
+
 1. Fork the repository so that you have your own Github copy of it
 2. Create a new [Azure Function Application](https://azure.microsoft.com/en-us/services/functions/)
 3. Create a new DocumentDB in Azure and call it 'guru-portfolios'
@@ -39,22 +41,10 @@ Installing and running the web application to test it locally is not easy:
 14. Your default browser opens up and you can start running the application
 
 Deploying the whole thing to Azure is difficult:
+
 15. Set up continous deployment pointing to your github repository as described [here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment)
 16. Add the variables in your 'GuruBackend\appsettings.json' file to your Azure Function Application by clicking on 'Function App Settings' and then 'Configure App Settings'
 17. Run all the functions to and look at the logs for success (to call the GetXXX ones you may want to use something like [Postman](https://www.getpostman.com/))
-
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
