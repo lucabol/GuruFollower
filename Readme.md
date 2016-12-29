@@ -11,11 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need to install:
 
-```
-Give examples
-```
+- [Visual Studio Tools for Azure Functions Preview](https://buildazure.com/2016/12/14/azure-functions-visual-studio-tools-preview/comment-page-1/)
+- Vue.js: best through the [CLI](https://vuejs.org/v2/guide/installation.html#CLI)
 
 ### Installing
 

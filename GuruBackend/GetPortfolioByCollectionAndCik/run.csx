@@ -4,14 +4,14 @@ using System;
 using System.Net;
 
 // Gets portfolio given collection and cik
-public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string collection, string cik, string port, TraceWriter log)
+public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string collection, string cik, DisplayPortfolio port, TraceWriter log)
 {
     log.Info($"C# HTTP trigger function processed a request. RequestUri={req.RequestUri}, {collection}, {cik}");
     if (String.IsNullOrEmpty(collection)) throw new ArgumentException("Empty collection");
     if (String.IsNullOrEmpty(cik)) throw new ArgumentException("Empty cik");
 
 
-    return String.IsNullOrEmpty(port)
+    return port == null
         ? req.CreateResponse(HttpStatusCode.BadRequest, $"Either no collection={collection} or no cik={cik} in such collection")
         : req.CreateResponse(HttpStatusCode.OK, port);
 }
