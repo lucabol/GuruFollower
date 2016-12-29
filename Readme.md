@@ -1,7 +1,9 @@
 # GuruFollower
 
 Uses the [SEC 13F filings](https://www.sec.gov/answers/form13f.htm) to show the current portfolios for your chosen institutional investors, their position changes from the previous quarter and a cumulative portfolio consisting of all their positions.
-Something akin to [DataRoma](http://www.dataroma.com/m/home.php) or [GuruFocus](http://www.gurufocus.com/)
+Something akin to [DataRoma](http://www.dataroma.com/m/home.php) or [GuruFocus](http://www.gurufocus.com/).
+
+It can be run either from the command line or deployed to Azure as a web application using Azure Functions, DocumentDB and Azure Queue as backend.
 
 ## Getting Started
 
@@ -74,12 +76,13 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Luca Bolognese** - *Initial work* - [lucabol](https://github.com/lucabol)
+* ** Mike Rousos** - *Review* - [mjrousos](https://github.com/mjrousos)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
