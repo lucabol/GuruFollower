@@ -18,9 +18,31 @@ You need to install:
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Installing and running the console application is trivial:
+1. Clone the repository
+2. Open the solution in the root directory in Visual Studio 2015
+3. Set `ConsoleFollower` as your startup project
+4. Debug/Start Debugging
 
-Say what the step will be
+Installing and running the web application to test it locally is not easy:
+1. Fork the repository so that you have your own Github copy of it
+2. Create a new [Azure Function Application](https://azure.microsoft.com/en-us/services/functions/)
+3. Create a new DocumentDB in Azure and call it 'guru-portfolios'
+4. Create a new Azure Storage Queue in Azure in the storage account created automatically in step 2
+7. Clone the repository
+8. Copy 'GuruBackend\appsettings.json.template' to 'GuruBackend\appsettings.json' and modify it to point to the resources created in step 3. and 4.
+9. *Exclude 'GuruBackend\appsettings.json' from git* as you don't want to share your account key with the world
+10. Open the solution in the root directory in Visual Studio 2015
+11. Set `GuruBackend` as your startup project
+12. Debug/Start Debugging
+13. Open cmd.exe in 'GuruFrontend\' and run 'npm run dev'
+14. Your default browser opens up and you can start running the application
+
+Deploying the whole thing to Azure is difficult:
+15. Set up continous deployment pointing to your github repository as described [here](https://docs.microsoft.com/en-us/azure/azure-functions/functions-continuous-deployment)
+16. Add the variables in your 'GuruBackend\appsettings.json' file to your Azure Function Application by clicking on 'Function App Settings' and then 'Configure App Settings'
+17. Run all the functions to and look at the logs for success (to call the GetXXX ones you may want to use something like [Postman](https://www.getpostman.com/))
+
 
 ```
 Give the example
