@@ -10,6 +10,15 @@
     },
     {
       "type": "documentDB",
+      "name": "client",
+      "databaseName": "guru-portfolios",
+      "collectionName": "{collection}",
+      "id": "",
+      "connection": "AzureDocumentDB",
+      "direction": "in"
+    },
+    {
+      "type": "documentDB",
       "name": "$return",
       "databaseName": "guru-portfolios",
       "collectionName": "{collection}",

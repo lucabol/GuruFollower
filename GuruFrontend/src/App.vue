@@ -40,7 +40,31 @@ export default {
       this.dname = dname
       this.ddate = ddate
     },
-    removeGuru: function (id) {},
+    removeGuru: function (id) {
+      // Sends the removal message and waits for the guru not to be present in the database to refresh UI.
+      // TODO: refactor this func and next as they are similar
+      this.$http.post('/api/portfolios', {collection: 'lucabol', groups: [], cik: id, remove: true}).then((response) => {
+        var maxTries = 10
+        var timeout = 250 // in msec
+        var caller = this.$http
+        var load = this.loadGurus
+        var f = function () {
+          caller.get('/api/portfolios/lucabol/' + id).then((response) => {
+            if (maxTries > 0) {
+              maxTries = maxTries - 1
+              window.setTimeout(f, timeout)
+            } else {
+              window.alert('Error removing guru with cik = ' + id + '. It was still in the database after the allotted removal time')
+            }
+          }, (error) => {
+            // Can't load guru's portfolio. It must have been deleted. Reload everything.
+            error
+            load()
+          })
+        }
+        window.setTimeout(f, timeout)
+      })
+    },
     addGuru: function (id) {
       // This tries for 2.5 sec every 250 ms to see if the guru as been inserted, if it had, then reloads
       // the list of gurus and shows the hyperportfolio

@@ -33,7 +33,6 @@ export default {
 
 <style scoped>
 button {
-  display:inline-flex;
 }
 
 ul {
