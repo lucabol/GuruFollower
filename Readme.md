@@ -1,6 +1,7 @@
 # GuruFollower
 
 Uses the [SEC 13F filings](https://www.sec.gov/answers/form13f.htm) to show the current portfolios for your chosen institutional investors, their position changes from the previous quarter and a cumulative portfolio consisting of all their positions.
+Something akin to [DataRoma](http://www.dataroma.com/m/home.php) or [GuruFocus](http://www.gurufocus.com/)
 
 ## Getting Started
 
