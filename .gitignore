@@ -243,4 +243,4 @@ ModelManifest.xml
 
 ## User defined ignore
 appsettings.json
-!GuruFrontend/**/dist/
+
