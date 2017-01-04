@@ -61,6 +61,10 @@ Deploying the whole thing to Azure is difficult:
 19. Point a browser to your new web App
 20. YOU ARE DONE
 
+## How to redeploy your app if you make changes to It
+1. If you modify GuruLoader or GuruBackend, simply do a build in VS and Push to Github
+2. If you modify GuruFrontEnd, open a cmd in GuruFrontEnd/ and run 'npm dev build', the Push to Github
+
 ## Running the tests
 
 Tests are run as usual from inside the Visual Studio UI.
