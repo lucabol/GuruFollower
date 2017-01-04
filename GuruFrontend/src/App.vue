@@ -24,9 +24,10 @@ export default {
   },
   data () {
     return {
-      baseUri: '/api/portfolios',
+      // baseUri: '/api/portfolios',
+      baseUri: 'https://gurufollower.azurewebsites.net/api/portfolios',
       collection: 'lucabol',
-      keypart: '',
+      keyPart: '?code=laenjSgq19DtzaypN/46w9OzDBabPHt6PMGfvf1a/BLba1VUgZUATg==',
       dname: '',
       ddate: {},
       showPort: true,
@@ -38,7 +39,7 @@ export default {
     }
   },
   computed: {
-    hyperUri: function () { return this.baseUri + '/' + this.collection },
+    hyperUri: function () { return this.baseUri + '/' + this.collection + this.keyPart },
     collectionUri: function () { return this.baseUri + '/' + this.collection + '/' }
   },
   methods: {
@@ -50,13 +51,14 @@ export default {
     removeGuru: function (id) {
       // Sends the removal message and waits for the guru not to be present in the database to refresh UI.
       // TODO: refactor this func and next as they are similar
-      this.$http.post(this.baseUri, {collection: this.collection, groups: [], cik: id, remove: true}).then((response) => {
+      this.$http.post(this.baseUri + this.keyPart, {collection: this.collection, groups: [], cik: id, remove: true}).then((response) => {
         var maxTries = 10
         var timeout = 250 // in msec
         var caller = this.$http
         var load = this.loadGurus
+        var curi = this.collectionUri + id + this.keypart
         var f = function () {
-          caller.get(this.collectionUri + id).then((response) => {
+          caller.get(curi).then((response) => {
             if (maxTries > 0) {
               maxTries = maxTries - 1
               window.setTimeout(f, timeout)
@@ -75,14 +77,14 @@ export default {
     addGuru: function (id) {
       // This tries for 2.5 sec every 250 ms to see if the guru as been inserted, if it had, then reloads
       // the list of gurus and shows the hyperportfolio
-      this.$http.post(this.baseUri, {collection: this.collection, groups: [], cik: id, remove: false}).then((response) => {
+      this.$http.post(this.baseUri + this.keyPart, {collection: this.collection, groups: [], cik: id, remove: false}).then((response) => {
         var maxTries = 10
         var timeout = 250 // in msec
         var caller = this.$http
         var load = this.loadGurus
-        var cUri = this.collectionUri
+        var cUri = this.collectionUri + id + this.keyPart
         var f = function () {
-          caller.get(cUri + id).then((response) => {
+          caller.get(cUri).then((response) => {
             load()
           }, (error) => {
             if (maxTries > 0) {
@@ -118,7 +120,7 @@ export default {
     loadPositions: function (cik) {
       this.showPort = true
       if (cik) {
-        this.$http.get(this.collectionUri + cik).then((response) => {
+        this.$http.get(this.collectionUri + cik + this.keyPart).then((response) => {
           var port = response.body
           this.trades = this.formatTrades(port.Positions)
         })
@@ -138,7 +140,7 @@ export default {
       })
     },
     loadGurus: function () {
-      this.$http.get(this.collectionUri + 'gurus').then((response) => {
+      this.$http.get(this.collectionUri + 'gurus' + this.keyPart).then((response) => {
         this.guruList = response.body
         this.loadHyperPositions()
       })
