@@ -25,7 +25,7 @@ export default {
   data () {
     return {
       // baseUri: '/api/portfolios',
-      baseUri: 'https://gurufollower.azurewebsites.net/api/portfolios',
+      // baseUri: 'https://gurufollower.azurewebsites.net/api/portfolios',
       collection: 'lucabol',
       keyPart: '?code=laenjSgq19DtzaypN/46w9OzDBabPHt6PMGfvf1a/BLba1VUgZUATg==',
       dname: '',
@@ -39,6 +39,14 @@ export default {
     }
   },
   computed: {
+    baseUri: function () {
+      // TODO: isn't there a less intrusive way to check this?
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return '/api/portfolios'
+      } else {
+        return 'https://gurufollower.azurewebsites.net/api/portfolios'
+      }
+    },
     hyperUri: function () { return this.baseUri + '/' + this.collection + this.keyPart },
     collectionUri: function () { return this.baseUri + '/' + this.collection + '/' }
   },
