@@ -5,9 +5,15 @@ Something akin to [DataRoma](http://www.dataroma.com/m/home.php) or [GuruFocus](
 
 It can be run either from the command line or deployed to Azure as a web application using Azure Functions, DocumentDB and Azure Queue as backend.
 
+### Todo
+
+1. Medium - Implement some form of identity so that each person connecting to the web site has its own list of gurus
+2. Hard - Implement the concept of groups so that each user can create sub-lists of gurus according to whatever criteria they choose
+3. Easy - Implement history for each position in the web app as presented in the console app so that you can see the history of buying and selling for a guru for a position
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -37,7 +43,7 @@ Installing and running the web application to test it locally is not easy:
 10. Open the solution in the root directory in Visual Studio 2015
 11. Set `GuruBackend` as your startup project
 12. Debug/Start Debugging
-13. Open cmd.exe in `GuruFrontend\` and run `npm run dev`
+13. Open cmd.exe in `GuruFrontend\src\` and run `npm run dev`
 14. Your default browser opens up and you can start running the application
 
 Deploying the whole thing to Azure is difficult:
@@ -48,55 +54,14 @@ Deploying the whole thing to Azure is difficult:
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Tests are run as usual from inside the Visual Studio UI.
 
 ## Authors
 
 * **Luca Bolognese** - *Initial work* - [lucabol](https://github.com/lucabol)
-* ** Mike Rousos** - *Review* - [mjrousos](https://github.com/mjrousos)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Mike Rousos** - *Review* - [mjrousos](https://github.com/mjrousos)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who`s code was used
-* Inspiration
-* etc

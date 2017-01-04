@@ -24,6 +24,9 @@ export default {
   },
   data () {
     return {
+      baseUri: '/api/portfolios',
+      collection: 'lucabol',
+      keypart: '',
       dname: '',
       ddate: {},
       showPort: true,
@@ -34,6 +37,10 @@ export default {
       hyperTrades: []
     }
   },
+  computed: {
+    hyperUri: function () { return this.baseUri + '/' + this.collection },
+    collectionUri: function () { return this.baseUri + '/' + this.collection + '/' }
+  },
   methods: {
     guruClicked: function (id, dname, ddate) {
       this.loadPositions(id)
@@ -43,13 +50,13 @@ export default {
     removeGuru: function (id) {
       // Sends the removal message and waits for the guru not to be present in the database to refresh UI.
       // TODO: refactor this func and next as they are similar
-      this.$http.post('/api/portfolios', {collection: 'lucabol', groups: [], cik: id, remove: true}).then((response) => {
+      this.$http.post(this.baseUri, {collection: this.collection, groups: [], cik: id, remove: true}).then((response) => {
         var maxTries = 10
         var timeout = 250 // in msec
         var caller = this.$http
         var load = this.loadGurus
         var f = function () {
-          caller.get('/api/portfolios/lucabol/' + id).then((response) => {
+          caller.get(this.collectionUri + id).then((response) => {
             if (maxTries > 0) {
               maxTries = maxTries - 1
               window.setTimeout(f, timeout)
@@ -68,13 +75,14 @@ export default {
     addGuru: function (id) {
       // This tries for 2.5 sec every 250 ms to see if the guru as been inserted, if it had, then reloads
       // the list of gurus and shows the hyperportfolio
-      this.$http.post('/api/portfolios', {collection: 'lucabol', groups: [], cik: id, remove: false}).then((response) => {
+      this.$http.post(this.baseUri, {collection: this.collection, groups: [], cik: id, remove: false}).then((response) => {
         var maxTries = 10
         var timeout = 250 // in msec
         var caller = this.$http
         var load = this.loadGurus
+        var cUri = this.collectionUri
         var f = function () {
-          caller.get('/api/portfolios/lucabol/' + id).then((response) => {
+          caller.get(cUri + id).then((response) => {
             load()
           }, (error) => {
             if (maxTries > 0) {
@@ -110,8 +118,8 @@ export default {
     loadPositions: function (cik) {
       this.showPort = true
       if (cik) {
-        this.$http.get('/api/portfolios/lucabol/' + cik).then((response) => {
-          var port = JSON.parse(response.body)
+        this.$http.get(this.collectionUri + cik).then((response) => {
+          var port = response.body
           this.trades = this.formatTrades(port.Positions)
         })
       }
@@ -124,13 +132,13 @@ export default {
     },
     loadHyperPositions: function () {
       this.showPort = false
-      this.$http.get('/api/portfolios/lucabol').then((response) => {
+      this.$http.get(this.hyperUri).then((response) => {
         var port = response.body
         this.hyperTrades = this.formatHyperTrades(port.Positions)
       })
     },
     loadGurus: function () {
-      this.$http.get('/api/portfolios/lucabol/gurus').then((response) => {
+      this.$http.get(this.collectionUri + 'gurus').then((response) => {
         this.guruList = response.body
         this.loadHyperPositions()
       })

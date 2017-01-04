@@ -25,6 +25,7 @@ public async static Task<DisplayPortfolio> Run(UpdateData req, DocumentClient cl
     }
     else {
         // Remove can't be implemented in binding
+        // TODO: find a way to remove guru-portfolios name for below
         Uri docUri = UriFactory.CreateDocumentUri("guru-portfolios", req.collection, req.cik);
         await client.DeleteDocumentAsync(docUri);
         return null;
