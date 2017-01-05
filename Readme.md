@@ -14,10 +14,10 @@ It can be run either from the command line or deployed to Azure as a web applica
 3. Implement history for each position in the web app as presented in the console app so that you can see the history of buying and selling for a guru for a position  (already in Console app)
 4. Implement assigning separate weights for each guru to get a weighted-adjusted hyper-portfolio (already in Console app)
 5. How to make the UI look cool:
-	a. Apply a good CSS to the whole thing
-	b. Add pie charts of positions inside a portfolio and gurus inside hyper-portfolio
-	c. Identify with up arrows increases, asterix-like graphic new buy and down arrow sells
-	d. Specially highlights the most interesting trades (i.e. more than 20% increase of a top 10 position)
+  a. Apply a good CSS to the whole thing
+  b. Add pie charts of positions inside a portfolio and gurus inside hyper-portfolio
+  c. Identify with up arrows increases, asterix-like graphic new buy and down arrow sells
+  d. Specially highlights the most interesting trades (i.e. more than 20% increase of a top 10 position)
 
 ## Getting Started
 
