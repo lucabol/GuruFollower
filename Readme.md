@@ -11,7 +11,13 @@ It can be run either from the command line or deployed to Azure as a web applica
 1. Implement some form of identity so that each person connecting to the web site has its own list of gurus
 2. Do a security review (i.e. any SQL injection kind of attack accessing DocumentDB? How to remove the Function Key from javascript?)
 2. Implement the concept of groups so that each user can create sub-lists of gurus according to whatever criteria they choose
-3. Implement history for each position in the web app as presented in the console app so that you can see the history of buying and selling for a guru for a position
+3. Implement history for each position in the web app as presented in the console app so that you can see the history of buying and selling for a guru for a position  (already in Console app)
+4. Implement assigning separate weights for each guru to get a weighted-adjusted hyper-portfolio (already in Console app)
+5. How to make the UI look cool:
+	a. Apply a good CSS to the whole thing
+	b. Add pie charts of positions inside a portfolio and gurus inside hyper-portfolio
+	c. Identify with up arrows increases, asterix-like graphic new buy and down arrow sells
+	d. Specially highlights the most interesting trades (i.e. more than 20% increase of a top 10 position)
 
 ## Getting Started
 
