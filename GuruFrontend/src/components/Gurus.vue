@@ -1,7 +1,7 @@
 <template>
   <div class="gurus">
     <ul>
-      <li><b>Gurus</b></li>
+      <li><b>GURU</b></li>
       <li><br /></li>
       <li @click="hyperClicked"><em>Hyper Portfolio</em></li>
       <li><br /></li>
